@@ -1,0 +1,38 @@
+{
+  "name": "nordic-store",
+  "version": "1.0.0",
+  "description": "[Nordic Store](https://www.tailwindtoolbox.com/templates/nordic-store) is an open source, nordic inspired e-commerce product listing template for [Tailwind CSS](https://tailwindcss.com/) created by [Tailwind Toolbox](https://www.tailwindtoolbox.com/).",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@jest/globals": "^29.4.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "dotenv": "^16.0.3",
+    "http-status": "^1.6.2",
+    "koa": "^2.14.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16",
+    "koa-ejs": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "node-fetch": "^3.3.0",
+    "source-map-loader": "^4.0.1",
+    "unsplash-js": "^7.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "nodemon": "^2.0.20",
+    "tslib": "^2.5.0",
+    "tsx": "^3.12.3"
+  }
+}
